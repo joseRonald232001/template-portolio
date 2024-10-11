@@ -51,7 +51,6 @@ nav {
     animation: bouncing 4s 2s infinite, slide-in-right 2s ease-out;
 }
 
-
 /*Section section experience*/
 .experience {
     width: 100%;
@@ -62,9 +61,8 @@ nav {
     gap: 30px;
     z-index: 1;
     position: relative;
-    
-}
 
+}
 
 .experience article {
     width: 200px;
@@ -132,16 +130,17 @@ nav {
     width: 200px;
     height: 200px;
 }
+
 .feature3 .vector5 {
     position: absolute;
     right: 0;
     width: 450px;
 }
 
-
 /* section contact */
 .contact {
     width: 90%;
+    height: 369px;
     max-width: 800px;
     display: flex;
     justify-content: center;
@@ -154,14 +153,16 @@ nav {
     background: rgba(255, 255, 255, 0.144);
 }
 
-
-.contact div{
+.contact div {
     display: flex;
     justify-content: space-around;
     width: 100%;
     margin: 0 auto;
 }
 
+/**********/
 
-
-
+section {
+    width: 100vw;
+    overflow: hidden;
+}

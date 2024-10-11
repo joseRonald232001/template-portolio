@@ -17,7 +17,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet">
+  <!--   libreria -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>portfolio | dev</title>
+
+
 </head>
 
 <body>
@@ -32,7 +36,7 @@
     <nav>
       <ul>
         <li><a href="#home">Home</a></li>
-        <li><a href="#section_proyects">Proyects</a></li>
+        <li><a href="#section_works">Proyects</a></li>
         <li><a href="#section_feature2">About me</a></li>
         <li><a href="#section_contact">Contact me</a></li>
       </ul>
@@ -65,31 +69,31 @@
 
     <!-- Section experience -->
     <section class="experience">
-      <article class="hidden-left">
+      <article  data-aos="fade-up" data-aos-duration="900">
         <img src="assets/icons/icon glass.svg" alt="icon glass">
         <p>Experience the world through VR glasses</p>
       </article>
-      <article class="hidden-right">
+      <article  data-aos="fade-up" data-aos-duration="900">
         <img src="assets/icons/icon 360.svg" alt="icon">
         <p>View all your surrounding with 360</p>
       </article>
-      <article class="hidden-left">
+      <article  data-aos="fade-up" data-aos-duration="900">
         <img src="assets/icons/maki_gaming.svg" alt="icon">
         <p>Incredible gaming experience</p>
       </article>
-      <article class="hidden-right">
+      <article  data-aos="fade-up" data-aos-duration="900">
         <img src="assets/icons/money.svg" alt="icon">
         <p>Making meetings and tours easier</p>
       </article>
     </section>
 
     <!-- Section proyects -->
-    <section id="section_works" class="works">
+    <section  id="section_works" class="works">
       <img class="vector3" src="assets/vectores/vector3.svg" alt="vector">
-      <figure class="works_figure">
+      <figure  data-aos="fade-right" data-aos-duration="1500" class="works_figure">
         <img src="assets/images/browser.png" alt="last project">
       </figure>
-      <article class="works_paragraph">
+      <article data-aos="fade-left" data-aos-duration="1500" class="works_paragraph">
         <h2><span>Last landing</span> and website projects</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut cursus ac ipsum sed rhoncus. Nam euismod auctor
@@ -100,11 +104,11 @@
 
     <!-- Section about me -->
     <section id="section_feature2" class="feature2">
-      <img class="vector4" src="assets/vectores/vector4 left.svg" alt="vector">
-      <figure class="feature2_figure">
+      <img  class="vector4" src="assets/vectores/vector4 left.svg" alt="vector">
+      <figure data-aos="flip-left" data-aos-duration="2000" class="feature2_figure">
         <img src="assets/images/image 3.png" alt="">
       </figure>
-      <article class="feature2_paragraph">
+      <article data-aos="fade-up"data-aos-duration="3000" class="feature2_paragraph">
         <h2> <span>Build</span> a whole new world</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut cursus ac ipsum sed rhoncus. Nam euismod auctor
@@ -118,7 +122,7 @@
       <img class="vector5" src="assets/vectores/vector5 left.svg" alt="">
       <article>
         <img class="vector_radial" src="assets/vectores/vector radial.svg" alt="vector radial">
-        <img  class="feature3_icon" src="assets/icons/database.svg" alt="icon database">
+        <img class="feature3_icon" src="assets/icons/database.svg" alt="icon database">
         <div class="feature3_paragraph">
           <h3>Management</h3>
           <p>Lorem ipsum dolor sit ferest amet,</p>
@@ -143,18 +147,41 @@
     </section>
 
     <!-- Section contact -->
-    <section id="section_contact" class="contact">
-           <h2>Contact me!</h2>
-           <div class="contact_icons">
-            <img src="assets/icons/x.svg" alt="icon x">
-            <img src="assets/icons/linkedin.svg" alt="icon linkedin">
-            <img src="assets/icons/github.svg" alt="icon github">
-            <img src="assets/icons/whatsapp.svg" alt="icon whatsapp">
-           </div>
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut cursus ac ipsum sed rhoncus. Nam euismod auctor ipsum.</p>
+    <section  id="section_contact" class="contact">
+      <h2>Contact me!</h2>
+      <div class="contact_icons">
+        <a href="https://x.com/uuusser007" class="icon" target="_blank" rel="noopener noreferrer">
+          <img src="assets/icons/x.svg" alt="icon x">
+          <span class="tooltip">Mantente actualizado, ¡sígueme!</span>
+        </a>
+        <a href="https://www.linkedin.com/in/jose-ronald-peña-hidalgo-a481a923b/" class="icon" target="_blank"
+          rel="noopener noreferrer">
+          <img src="assets/icons/linkedin.svg" alt="icon linkedin">
+          <span class="tooltip">¡Conéctate conmigo!</span>
+        </a>
+        <a href="" class="icon" target="blank" rel="noopener noreferrer">
+          <img src="assets/icons/github.svg" alt="icon github">
+          <span class="tooltip">¡Mira mi código!</span>
+        </a>
+        <a href="https://wa.me/67512034?text=Hola,%20me%20gustaría%20discutir%20oportunidades%20laborales%20contigo."
+          class="icon" target="_blank" rel="noopener noreferrer">
+          <img src="assets/icons/whatsapp.svg" alt="icon whatsapp">
+          <span class="tooltip">¡Envíame un mensaje!</span>
+        </a>
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut cursus ac ipsum sed rhoncus. Nam euismod auctor
+        ipsum.</p>
     </section>
   </main>
 
+  <!-- Archivo Js -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- Librería de animaciones -->
+  <script>
+    AOS.init();
+  </script>
+  <!-- Mi script -->
   <script src="app.js"></script>
 </body>
 
