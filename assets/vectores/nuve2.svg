@@ -1,0 +1,21 @@
+<svg width="518" height="506" viewBox="0 0 518 506" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_206_976" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="518" height="506">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M255.818 1.65962C191.747 -1.71763 109.339 -5.18473 73.9385 48.2983C36.4557 104.927 108.661 179.668 94.0952 245.988C82.0477 300.842 -9.42676 326.106 0.795288 381.329C10.616 434.384 86.0905 441.641 134.668 465.174C173.87 484.165 212.347 502.017 255.818 504.872C301.937 507.9 347.323 501.617 389.112 481.881C438.589 458.514 500.288 435.349 514.731 382.593C529.182 329.807 472.289 285.715 457.22 233.102C441.266 177.4 462.316 110.482 424.273 66.7648C383.773 20.2232 317.446 4.90812 255.818 1.65962Z" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask0_206_976)">
+<rect width="591" height="594" transform="matrix(-1 0 0 1 516.666 -44.4065)" fill="url(#paint0_linear_206_976)"/>
+</g>
+<path opacity="0.4" d="M480.972 369.63C481.491 373.969 479.044 379.542 471.53 386.125C464.164 392.58 452.844 399.154 438.176 405.373C408.902 417.783 367.377 428.329 320.577 433.926C273.777 439.523 230.936 439.066 199.562 433.908C183.84 431.324 171.289 427.605 162.609 423.069C153.755 418.443 150.062 413.605 149.543 409.266C149.025 404.926 151.472 399.354 158.985 392.77C166.352 386.316 177.672 379.742 192.34 373.523C221.613 361.112 263.138 350.566 309.939 344.97C356.739 339.373 399.58 339.829 430.954 344.987C446.675 347.572 459.226 351.291 467.907 355.826C476.761 360.453 480.453 365.291 480.972 369.63Z" stroke="url(#paint1_radial_206_976)" stroke-width="10"/>
+<defs>
+<linearGradient id="paint0_linear_206_976" x1="171.5" y1="38" x2="295" y2="452" gradientUnits="userSpaceOnUse">
+<stop stop-color="#9BA4ED" stop-opacity="0.61"/>
+<stop offset="0.531062" stop-color="#343E97" stop-opacity="0.343433"/>
+<stop offset="1" stop-color="#D3D7F7" stop-opacity="0.14"/>
+</linearGradient>
+<radialGradient id="paint1_radial_206_976" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(315.258 389.448) rotate(83.1804) scale(49.795 171.895)">
+<stop stop-color="#3F51E8"/>
+<stop offset="0.572917" stop-color="#9BA4ED"/>
+<stop offset="1" stop-color="#1F34E7"/>
+</radialGradient>
+</defs>
+</svg>
