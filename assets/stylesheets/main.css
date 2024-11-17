@@ -260,7 +260,8 @@ main {
 }
 
 .feature3 article:hover {
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+  /* Sombra más intensa */
 }
 
 /* Opcional: Agregar un pequeño resplandor en el borde al hacer hover */
@@ -272,9 +273,12 @@ main {
   right: -5px;
   bottom: -5px;
   border-radius: 7px;
-  border: 2px solid #00B8D4; /* Resplandor color turquesa */
-  z-index: -1; /* Asegura que el resplandor quede detrás */
-  box-shadow: 0 0 15px rgba(0, 184, 212, 0.8); /* Resplandor azul alrededor */
+  border: 2px solid #00B8D4;
+  /* Resplandor color turquesa */
+  z-index: -1;
+  /* Asegura que el resplandor quede detrás */
+  box-shadow: 0 0 15px rgba(0, 184, 212, 0.8);
+  /* Resplandor azul alrededor */
 }
 
 .feature3 article h3 {
